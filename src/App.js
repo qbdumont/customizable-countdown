@@ -15,7 +15,7 @@ import {
 } from './utils/LocalStorage';
 
 function App() {
-  const [targetDate, setTargetDate] = useState(getSavedDate() || '08/24/2021');
+  const [targetDate, setTargetDate] = useState(getSavedDate() || '12/24/2021');
   const [dateReached, setDateReached] = useState(
     dateToday(new Date(targetDate))
   );
